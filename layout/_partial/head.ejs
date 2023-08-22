@@ -54,6 +54,7 @@
     /* 首屏样式 */
     <%- FirstCSS() %>
   </style>
+  <link rel="stylesheet" href="<%- theme.cdn.katex_css %>"/>
   <link rel="stylesheet" href="<%- theme.cdn.volantis_style %>" media="print" onload="this.media='all';this.onload=null">
   <noscript><link rel="stylesheet" href="<%- theme.cdn.volantis_style %>"></noscript>
   <%_ if (theme.plugins.darkmode.enable) { _%>
